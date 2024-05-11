@@ -1,9 +1,9 @@
 .Contenedor{
     margin: auto;
-    width: 852px;
-    height: 910px;
-    background: linear-gradient( rgb(241, 233, 216), rgb(238, 217, 188));
-    border: 4px solid black
+    width: 895px;
+    height: 1100px;
+    background: white;
+    border: 5px solid black
     }
 
 .Contenedor .imagen img{
@@ -13,74 +13,168 @@
     height: 250px;
     width: 250px;
     transition: 100ms all;
-    border: 2px solid black
+    border: 5px solid black
     
     
 }
 .Contenedor .imagen img:hover{
     transform: scale(1.2);
 }
-.rect{    
+/*crear caja 1 */
+.caja1{    
     
     margin: 20px;
     font-size: 20px;
-    background-color: bisque;
-    width: 250px;
+    background-color: rgb(223, 210, 213);
+    width: 265px;
     height: 400px;
-    border: 2px solid black;
+    border: 3px solid black;
     transition: 100ms all;
 }
-.rect .titulo{
+.caja1 .titulo1{
+    font-size: 125%;
+    letter-spacing: 5px;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:blueviolet;
+    color: rgba(219, 46, 127, 0.877);
+    text-shadow: rgb(241, 240, 240) 6px 0;
+    text-transform: uppercase;
+
 
 }
-.rect:hover{
-    transform: scale(1.2);
-    background-color: rgb(219, 119, 119);
+.caja1:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    
 }
-.rect .texto{
-    color:blue
+.contenido{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: medium;
+
 }
-.rect1{
+.caja2 img{
     
     margin: 20px; 
     background-color: antiquewhite;
-    width: 250px;
-    height: 150px;
-    border: 2px solid black
+    width: 265px;
+    height: 300px;
+    border: 3px solid black;
+    transition: 90ms all;
 }
-.rect2{
+.caja2:hover{
+    transform: scale(1.1);
+
+}
+
+.caja3{
     position: relative;
     text-align: center;
     left: 300px;
-    top: -870px;
+    top: -1090px;
     margin: 20px;
-    background-color: antiquewhite;
-    width: 250px;
-    height: 400px;
-    border: 2px solid black
+    background-color: rgb(223, 210, 213);
+    width: 270px;
+    height: 705px;
+    border: 3px solid black
 }
-.rect3{
+.caja3 .titulo2{
+
+    font-size: 125%;
+    letter-spacing: 5px;
+    text-align: center;
+    color: rgba(219, 46, 127, 0.877);
+    text-shadow: rgb(241, 240, 240) 6px 0;
+    text-transform: uppercase;
+}
+.contenido2{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+}
+.caja3:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+}
+.caja4{
     position: relative;
     text-align: center;
     left: 300px;
-    top: -890px;
+    top: -1109px;
     margin: 20px;
-    background-color: antiquewhite;
-    width: 250px;
-    height: 442px;
-    border: 2px solid black
+    background-color: rgb(223, 210, 213);
+    width: 270px;
+    height: 346px;
+    border: 3px solid black
 }
-.rect4{
+.caja4 .titulo3{
+    font-size: 125%;
+    letter-spacing: 5px;
+    text-align: center;
+    color: rgba(219, 46, 127, 0.877);
+    text-shadow: rgb(241, 240, 240) 6px 0;
+    text-transform: uppercase;
+}
+.contenido3{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+}
+.caja4:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+}
+.caja5{
     position: relative;
     text-align: center;
-    left: 570px;
-    top: -1760px;
+    left: 590px;
+    top: -2189px;
     margin: 20px;
-    background-color: antiquewhite;
-    width: 250px;
-    height: 845px;
-    border: 2px solid black
+    background-color: rgb(223, 210, 213);
+    width: 270px;
+    height: 1054px;
+    border: 4px solid black;
+    transition: 100ms all;
+}
+.caja5:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+}
+.caja5 .titulo4{
+    font-size: 125%;
+    letter-spacing: 5px;
+    text-align: center;
+    color: rgba(219, 46, 127, 0.877);
+    text-shadow: rgb(241, 240, 240) 6px 0;
+    text-transform: uppercase;
+}
+.caja5 .titulo5{
+    font-size: 125%;
+    letter-spacing: 5px;
+    text-align: center;
+    color: rgba(219, 46, 127, 0.877);
+    text-shadow: rgb(241, 240, 240) 6px 0;
+    text-transform: uppercase;
+}
+.caja5 .titulo6{
+    font-size: 125%;
+    letter-spacing: 5px;
+    text-align: center;
+    color: rgba(219, 46, 127, 0.877);
+    text-shadow: rgb(241, 240, 240) 6px 0;
+    text-transform: uppercase;
+}
+.contenido4{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+}
+.contenido5{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size:large;
+}
+.contenido6{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size:larger;
 }
