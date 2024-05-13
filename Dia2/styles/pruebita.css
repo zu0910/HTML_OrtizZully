@@ -1,60 +1,61 @@
 .Contenedor{
-    margin: auto;
-    width: 895px;
-    height: 1100px;
-    background: white;
-    border: 5px solid black
+    margin: auto;/* Centra la hoja de la paguina */
+    width: 895px;/* ancho */
+    height: 1100px; /* Altura */
+    background: #8a7a86;/* color de fondo*/
+    border: 5px solid black/* Borde de la caja */
     }
 
 .Contenedor .imagen img{
     
     margin: 20px;
-    border-radius: 85%;
+    border-radius: 85%;/* redondear la imagen*/
     height: 250px;
     width: 250px;
-    transition: 100ms all;
+    transition: 100ms all;/*Va a agarrar todos los objetos*/
     border: 5px solid black
     
     
 }
 .Contenedor .imagen img:hover{
-    transform: scale(1.2);
+    /* hover lo que realiza es que cuando el mouse toque la caja va a realizar la transsicn*/
+    transform: scale(1.2);/*  */
 }
 /*crear caja 1 */
 .caja1{    
     
     margin: 20px;
     font-size: 20px;
-    background-color: rgb(223, 210, 213);
+    background-color: #e7e2d3;
     width: 265px;
     height: 400px;
     border: 3px solid black;
     transition: 100ms all;
 }
 .caja1 .titulo1{
-    font-size: 125%;
-    letter-spacing: 5px;
-    text-align: center;
-    color: rgba(219, 46, 127, 0.877);
-    text-shadow: rgb(241, 240, 240) 6px 0;
-    text-transform: uppercase;
+    font-size: 125%;/* Tamaño del titulo de la caja */
+    letter-spacing: 5px;/* El espacio que va a tener la cada letra del circulo */
+    text-align: center;/* centrar el titulo */
+    color: #4e495a;/* color al circulo */
+    text-shadow: rgb(241, 240, 240) 6px 0;/* color del sombreado del circulo */
+    text-transform: uppercase;/* Todo el titulo va a pasar a mayuscula */
 
 
 }
 .caja1:hover{
     transform: scale(1.1);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);/* Al hacer la transcision la caja cambiara de color  */
     
 }
 .contenido{
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    font-size: medium;
+    font-family:'Courier New', Courier, monospace;/* Tipo de fuente que va a tener la letra */
+    font-size: medium;/* Tamaño medio */
 
 }
 .caja2 img{
     
-    margin: 20px; 
+    margin: 20px; /* Margen */
     background-color: antiquewhite;
     width: 265px;
     height: 300px;
@@ -62,27 +63,27 @@
     transition: 90ms all;
 }
 .caja2:hover{
-    transform: scale(1.1);
+    transform: scaleY(1.2);
 
 }
 
 .caja3{
-    position: relative;
+    position: relative;/* Hace que la caja sea relativa, que la caja tenga movimiento */
     text-align: center;
-    left: 300px;
-    top: -1090px;
+    left: 300px;/* mover la caja a la izquierda */
+    top: -1090px;/* La caja suba */
     margin: 20px;
-    background-color: rgb(223, 210, 213);
+    background-color: #e7e2d3;
     width: 270px;
     height: 705px;
     border: 3px solid black
 }
 .caja3 .titulo2{
 
-    font-size: 125%;
+    font-size: 145%;
     letter-spacing: 5px;
     text-align: center;
-    color: rgba(219, 46, 127, 0.877);
+    color: #4e495a;
     text-shadow: rgb(241, 240, 240) 6px 0;
     text-transform: uppercase;
 }
@@ -101,16 +102,16 @@
     left: 300px;
     top: -1109px;
     margin: 20px;
-    background-color: rgb(223, 210, 213);
+    background-color: #e7e2d3;
     width: 270px;
     height: 346px;
     border: 3px solid black
 }
 .caja4 .titulo3{
-    font-size: 125%;
+    font-size: 140%;
     letter-spacing: 5px;
     text-align: center;
-    color: rgba(219, 46, 127, 0.877);
+    color: #4e495a;
     text-shadow: rgb(241, 240, 240) 6px 0;
     text-transform: uppercase;
 }
@@ -129,7 +130,7 @@
     left: 590px;
     top: -2189px;
     margin: 20px;
-    background-color: rgb(223, 210, 213);
+    background-color: #e7e2d3;
     width: 270px;
     height: 1054px;
     border: 4px solid black;
@@ -140,26 +141,26 @@
     background-color: rgb(255, 255, 255);
 }
 .caja5 .titulo4{
-    font-size: 125%;
+    font-size: 150%;
     letter-spacing: 5px;
     text-align: center;
-    color: rgba(219, 46, 127, 0.877);
+    color: #4e495a;
     text-shadow: rgb(241, 240, 240) 6px 0;
     text-transform: uppercase;
 }
 .caja5 .titulo5{
-    font-size: 125%;
+    font-size: 140%;
     letter-spacing: 5px;
     text-align: center;
-    color: rgba(219, 46, 127, 0.877);
+    color: #4e495a;
     text-shadow: rgb(241, 240, 240) 6px 0;
     text-transform: uppercase;
 }
 .caja5 .titulo6{
-    font-size: 125%;
+    font-size: 150%;
     letter-spacing: 5px;
     text-align: center;
-    color: rgba(219, 46, 127, 0.877);
+    color: #4e495a;
     text-shadow: rgb(241, 240, 240) 6px 0;
     text-transform: uppercase;
 }
