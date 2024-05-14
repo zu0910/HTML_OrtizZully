@@ -1,0 +1,16 @@
+body{
+    
+    background: rgb(63, 61, 61) ;
+    
+}
+.contenedor img{
+    
+    top: 200px;
+    left: 100px;
+    top: 100px;;
+    width: 1400px;/* ancho */
+    height: 800px; /* Altura */
+    border: 1px solid #707070;
+    opacity: 1;
+
+}
