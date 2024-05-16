@@ -1,0 +1,22 @@
+body{
+    background-image: url(img/Path\ 1@2x.jpg);
+    left: 2px;
+    width: 3838px;
+    height: 4149px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.fondo{
+    width: 1920px;
+    height: 1080px;
+
+}
+.part1 .logo{
+    top: 227px;
+    left: -400px;
+    width: 556px;
+    height: 313px;
+
+
+}
+
