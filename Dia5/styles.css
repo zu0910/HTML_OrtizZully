@@ -1,0 +1,17 @@
+.contenedor{
+    background-color: #2c2b47;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 1920px;
+    width: 1080px;
+}
+.caja1{
+    position: relative;
+    width: 1080px;
+    height: 400px;
+    background-color:azure;
+    bottom: 1920px;
+    left: 136px;
+    display: flex;
+    
+}
