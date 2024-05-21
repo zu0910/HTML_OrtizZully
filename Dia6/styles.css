@@ -1,0 +1,15 @@
+body{
+    background: transparent url(img/Fondo.png) no-repeat;
+    
+    width: 2456px;
+    height: 1638px;
+}
+.caja1{
+    position: absolute;
+    top: 191px;
+    left: 467px;
+    width: 1545px;
+    height: 1225px;
+    border-radius: 50px;
+    background-color: white;
+}
