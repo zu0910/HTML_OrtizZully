@@ -1,17 +1,299 @@
-.contenedor{
-    background-color: #2c2b47;
-    margin: 0 auto;
-    overflow: hidden;
-    height: 1920px;
-    width: 1080px;
+@font-face {
+    font-family: Mifuente;
+    src: url("font/Cascadia.ttf");
 }
-.caja1{
-    position: relative;
+body{
+    font-family: "Mifuente";
+    background-color: #1e1d2b;
+}
+.contenedor{
+    background-color: #1e1d2b;
+    margin: auto;
+    overflow: hidden;
+    height: 2820px;
     width: 1080px;
-    height: 400px;
-    background-color:azure;
-    bottom: 1920px;
-    left: 136px;
+
+}
+.menu{
     display: flex;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    position: relative;
+    top: 40px;
+    left: 500px;
+}
+.titulo{
+    position: relative;
+    color: #ff702a;
+    font-size: 35px;
+    left: 90px;
+    top: 30px;
+    font-weight: 800;
+}
+.texto1 h1{
+    position: relative;
+    color: #ff702a;
+    left: 175px;
+    top: 40px;
+    font-size: 60px;
+}
+.texto1 p{
+    position: relative;
+    color: white;
+    left: 175px;
+    font-weight: bold;
+    font-size: 25px;
+    
+    height: 0px;
+}
+.texto1 button{
+    position: relative;
+    left: 175px;
+    top: 25px;
+    background-color: #ff702a;
+    color: white;
+    font-size: 20px;
+    width: 154px;
+    height: 44px;
+}
+.texto1 img{
+    position:absolute;
+    height: 230px;
+    left: 1550px;
+    bottom: 930px;
+    border: none;
+
+}
+
+.texto2 h5{
+    position: relative;
+    color: #ff702a;
+    left: 160px;
+    top: 120px;
+    font-weight: 500;
+    font-size: large;
+}
+.texto2 h1{
+    position: relative;
+    color: white;
+    right: -660px;
+    top: 110px;
+    height: 30px;
+    font-weight: 700;
+}
+.texto2 p{
+    position: relative;
+    color: white;
+    right: -660px;
+    top: 115px;
+    height: 5px;
+    font-weight: 500;
+}
+.texto2 button{
+    position: relative;
+    background-color: #ff702a;
+    color: white;
+    right: -660px;
+    bottom: 85px;
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+}
+.texto2 img{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    bottom: 70px;
+    right: -80px;
+}
+
+.texto3 h5{
+    position: relative;
+    color: #ff702a;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    top: 10px;
+}
+.texto3 h1{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-weight: 600;
     
 }
+.caja5{
+    position: relative;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    left: 100px;
+    top: 60px;
+    transition: all 300ms;
+}
+.caja5:hover{
+    transform:scale(1.2)
+}
+.caja5 img{
+    position: relative;
+    width: 150px;
+    left: 50px;
+    top: 15px;
+    
+}
+.caja5 h4, h5{
+    position: relative;
+    text-align: center;
+    height: 5px;
+    bottom: 20px;
+    font-weight: 600;
+}
+.caja5 p{
+    position: relative;
+    text-align: center;
+    bottom: 25px;
+    font-size: 15px;
+    color: #ff702a;
+}
+
+.caja6{
+    position: relative;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    left: 400px;
+    bottom: 180px;
+    
+}
+.caja6 img{
+    position: relative;
+    width: 150px;
+    left: 50px;
+    top: 1px;
+}
+.caja6 h4, h5{
+    position: relative;
+    text-align: center;
+    height: 5px;
+    bottom: 20px;
+    font-weight: 600;
+}
+.caja6 p{
+    position: relative;
+    text-align: center;
+    bottom: 25px;
+    font-size: 15px;
+    color: #ff702a;
+}
+
+.caja7{
+    position: relative;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    left: 700px;
+    bottom: 430px;
+}
+.caja7 img{
+    position: relative;
+    width: 130px;
+    left: 60px;
+    top: 20px;
+}
+
+.caja7 .text{
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    color: #ff702a;
+}
+.caja7 .text h5 ,h4{
+    color: black;
+}
+.caja7 .text p{
+    position: relative;
+    bottom: 20px;
+}
+
+.caja8{
+    position: absolute;
+    left: 1050px;
+    bottom: -160px;
+}
+.caja8 h5{
+    color: #ff702a;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+}
+.caja8 h1{
+    color: white;
+    bottom: 20px;
+    font-weight: 600;
+    font-size: 35px;
+}
+.order img{
+    position: absolute;
+    height: 200px;
+    left: -100px;
+    bottom: -100px;
+}
+h1.title3{
+    position: absolute;
+    color: #ff702a;
+    bottom: -150px;
+    font-weight: 500;
+    left: -55px;
+}
+.order p{
+    position: absolute;
+    color: white;
+    bottom: -220px;
+    left: -125px;
+}
+
+.shippi img{
+    position: absolute;
+    height: 200px;
+    bottom: -90px;
+    left: 200px;
+}
+h1.title4{
+    position: absolute;
+    color: #ff702a;
+    bottom: -150px;
+    font-weight: 500;
+    left: 220px;
+}
+.shippi p{
+    position: absolute;
+    color: white;
+    bottom: -220px;
+    left: 190px;
+}
+.dell img{
+    position: absolute;
+    height: 180px;
+    bottom: -90px;
+    left: 500px;
+}
+h1.title5{
+    position: absolute;
+    color: #ff702a;
+    bottom: -160px;
+    font-weight: 500;
+    left: 510px;
+}
+.dell p{
+    position: absolute;
+    color: white;
+    bottom: -220px;
+    left: 500px;
+    width: 290px;
+}
+
+
+
