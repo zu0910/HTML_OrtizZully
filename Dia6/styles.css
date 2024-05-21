@@ -1,15 +1,110 @@
 body{
-    background: transparent url(img/Fondo.png) no-repeat;
-    
-    width: 2456px;
-    height: 1638px;
+    background-image: url("img/pexels-clive-kim-4150032@2x.png");
+    margin: 0;
+    width: 1920px;
+}
+.superior{
+    width: 2960px;
+    background-color: #3669c9;
+    height: 174px;
+    position: fixed;
+    z-index: 2;
+    margin: auto;
+}
+.sub{
+    position: relative;
+    width: 1545px;
+    height: 174px;
+    background-color: antiquewhite;
+    margin: auto;
 }
 .caja1{
     position: absolute;
     top: 191px;
-    left: 467px;
+    left: 710px;
     width: 1545px;
     height: 1225px;
     border-radius: 50px;
     background-color: white;
+}
+#logo{
+    position: absolute;
+    width: 313px;
+    height: 53px;
+    left: 614px;
+    top: 42px;
+
+}
+#text1{
+    position: relative;
+    text-align: center;
+    font-size: 26px;
+    top: 100px;
+}
+.contenedor1{
+    position: relative;
+    top: 100px;
+    left: 397px;
+}
+.contenedor1 input{
+    display: block;
+    height: 63px;
+    width: 792px;
+    margin-bottom: 20px;
+}
+.contenedor1 label{
+    font-size: 21px;
+}
+.contenedor1 .int{
+    height: 55px;
+}
+.robot{
+    position: relative;
+    left: 587px;
+    top: 100px;
+}
+.robot p{
+    position: relative;
+    right: 75px;
+    font-size: 11px;
+}
+.robot button{
+    color: white;
+    background-color: #3669c9;
+    border-radius: 20px;
+    border: none;
+    font-size: 21px;
+    height: 42px;
+    width: 165px;
+    position: relative;
+    left: 130px;
+    top: 10px;
+}
+.nuevo h2{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.nuevo p{
+    font-size: 17px;
+}
+.contenedor{
+    display: flex;
+    position: relative;
+}
+.contenedor .rut{
+    position: relative;
+    text-align: center;
+    left: 300px;
+    top: 80px;
+}
+.contenedor .rut img{
+    position: relative;
+    right: 50px;
+}
+.contenedor .firma{
+    position: relative;
+    text-align: center;
+    left: 400px;
+    top: 120px;
 }
