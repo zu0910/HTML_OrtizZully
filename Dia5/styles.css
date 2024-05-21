@@ -62,9 +62,9 @@ body{
 .texto1 img{
     position:absolute;
     height: 230px;
-    left: 1550px;
-    bottom: 930px;
-    border: none;
+    left: 1080px;
+    bottom: 600px;
+    
 
 }
 
@@ -219,21 +219,25 @@ body{
 }
 
 .caja8{
-    position: absolute;
-    left: 1050px;
-    bottom: -160px;
+    position: relative;
+    left: 250px;
+    bottom: 160px;
 }
 .caja8 h5{
     color: #ff702a;
     position: relative;
     font-size: 20px;
     font-weight: 500;
+    bottom: 200px;
+    right: 270px;
 }
 .caja8 h1{
     color: white;
     bottom: 20px;
     font-weight: 600;
     font-size: 35px;
+    position: relative;
+    bottom: 200px;
 }
 .order img{
     position: absolute;
@@ -294,6 +298,110 @@ h1.title5{
     left: 500px;
     width: 290px;
 }
+.caja10{
+    position: absolute;
+    background-color: #ffefe8;
+    width: 800px;
+    height: 190px;
+    left: 510px;
+    bottom: -1150px;
+    border: double;
+}
+.caja10 p{
+    position: relative;
+    text-align: center;
+    font-size: x-large;
+}
+.caja10 button{
+    position: relative;
+    background-color: #ff702a;
+    border: none;
+    color: white;
+    left: 350px;
+    width: 100px;
+    height: 25px;
+}
+.caja11{
+    color: white;
+    position: relative;
+    left: 130px;
+    top: 340px;
+    height: 30px;
+    font-weight: 500;
+}
+p.linea{
+    position: relative;
+    color: #ff702a;
+    top: -30px;
+    left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja12{
+    position: absolute;
+    top: 35px;
+    
+}
+.caja12 p{
+    position: relative;
+    height: 10px;
+}
+.caja13{
+    color: white;
+    position: relative;
+    left: 300px;
+    top: 290px;
+    height: 30px;
+    font-weight: 500;
+}
+.caja13 p{
+    position: relative;
+    height: 10px;
+    top: -20px;
 
-
-
+}
+.caja15{
+    color: white;
+    position: relative;
+    left: 530px;
+    top: 240px;
+    height: 30px;
+    font-weight: 500;
+}
+.caja15 p{
+    position: relative;
+    height: 10px;
+    top: -20px;
+}
+p.linea1{
+    position: relative;
+    color: #ff702a;
+    top: -30px;
+    left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.linea2{
+    position: relative;
+    color: #ff702a;
+    top: -30px;
+    left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja17{
+    color: white;
+    position: relative;
+    left: 760px;
+    top: 195px;
+    height: 30px;
+    font-weight: 500;
+}
+p.linea3{
+    position: relative;
+    color: #ff702a;
+    top: -30px;
+    left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja17 i{
+    position: relative;
+    top: -30px;
+}
