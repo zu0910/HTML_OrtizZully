@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Mifuente;
+    src: url(fuente/MyriadPro-Light.otf);
+}
+#contenedor2{
+    height: 1580px;
+    background-image: url("img/pexels-clive-kim-4150032@2x.png");
+    width: 2960px;
+    margin: auto;
+}
+.superior{
+    width: 2960px;
+    background-color: #3669c9;
+    height: 174px;
+    position: fixed;
+    z-index: 2;
+    margin: auto;
+    
+}
+.sub{
+    position: relative;
+    width: 1545px;
+    height: 174px;
+    margin: auto;
+    display: flex;
+}
+.sub a,img,button{
+    margin-left: 150px;
+}
+.sub img{
+    position: relative;
+    width: 350px;
+    height: 90px;
+    left: 40px;
+    top: 40px;
+}
+.sub a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    top: 85px;
+    font-size: 30px;
+    font-weight: 100;
+    left: 10px;
+}
+.sub button{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 40px;
+    left: 1250px;
+    top: 75px;
+
+}
+.caja1{
+    position: relative;
+    top: 191px;
+    left: 710px;
+    width: 1545px;
+    height: 1225px;
+    border-radius: 50px;
+    background-color: white;
+}
+#logo{
+    position: absolute;
+    width: 323px;
+    height: 65px;
+    left: 500px;
+    top: 80px;
+}
+.icono2 img{
+    position: absolute;
+    width: 301px;
+    height: 301px;
+    left: 500px;
+    top: 250px;
+}
+.text{
+    position: relative;
+    text-align: center;
+    top: 620px;
+}
+.text h3{
+    font-size: 39px;
+}
+.text p{
+    font-size: 35px;
+}
+.text img{
+    position: relative;
+    width: 264px;
+    height: 88px;
+    left: -50px;
+}
+.text a{
+    position: absolute;
+    text-decoration: none;
+    width: 311px;
+    height: 59px;
+    background-color: #3669c9;
+    color: white;
+    top: 315px;
+    left: 600px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.inferior{
+    position: absolute;
+    width: 2960px;
+    background-color: #3669c9;
+    height: 235px;
+    top: 1286px;
+    left: -710px;
+}
+
+.inferior .img1 img{
+    position: relative;
+    width: 300px;
+    height: 60px;
+    left: 1200px;
+    top: -90px;
+}
+.inferior .texto2{
+    position: relative;
+    color: white;
+    text-align: center;
+    left: -500px;
+    font-size: 20px;
+    top: 45px;
+    line-height: 200%;
+}
+.inferior .texto3{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    left: 500px;
+    top: -220px;
+    line-height: 200%;
+}

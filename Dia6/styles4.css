@@ -1,0 +1,176 @@
+@font-face {
+    font-family: Mifuente;
+    src: url(fuente/MyriadPro-Light.otf);
+}
+#contenedor2{
+    height: 1580px;
+    background-image: url("img/pexels-clive-kim-4150032@2x.png");
+    margin: 0;
+    width: 2960px;
+    margin: auto;
+}
+.superior{
+    width: 2960px;
+    background-color: #3669c9;
+    height: 174px;
+    position: fixed;
+    z-index: 2;
+    margin: auto;
+    
+}
+.sub{
+    position: relative;
+    width: 1545px;
+    height: 174px;
+    margin: auto;
+    display: flex;
+}
+.sub a,img,button{
+    margin-left: 150px;
+}
+.sub img{
+    position: relative;
+    width: 350px;
+    height: 90px;
+    left: 40px;
+    top: 40px;
+}
+.sub a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    top: 85px;
+    font-size: 30px;
+    font-weight: 100;
+    left: 10px;
+}
+.sub button{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 40px;
+    left: 1250px;
+    top: 75px;
+
+}
+.caja1{
+    position: relative;
+    top: 281px;
+    left: 710px;
+    width: 1545px;
+    height: 870px;
+    border-radius: 50px;
+    background-color: white;
+}
+#logo{
+    position: absolute;
+    width: 313px;
+    height: 53px;
+    left: 500px;
+    top: 42px;
+
+}
+#text1{
+    position: relative;
+    text-align: center;
+    font-size: 26px;
+    top: 100px;
+    left: -0px;
+}
+#text1 img{
+    position: relative;
+    left: -45px;
+    top: 15px;
+}
+
+
+.contenedor1{
+    position: relative;
+    top: 150px;
+    left: 370px;
+    border: #707070;
+}
+.contenedor1 input{
+    display: block;
+    height: 63px;
+    width: 792px;
+    margin-bottom: 30px;
+}
+.contenedor1 label{
+    font-size: 21px;
+    
+}
+.contenedor1 .int{
+    height: 55px;
+}
+
+.caja1 a{
+    position: absolute;
+    text-decoration: none;
+    width: 166px;
+    height: 42px;
+    background-color: #3669c9;
+    color: white;
+    text-align: center;
+    left: 260px;
+    border-radius: 40px;
+    padding: 20px 50px;
+}
+.text2 h3{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    font-size: 26px;
+}
+.text2 img{
+    position: relative;
+    width: 231px;
+    height: 77px;
+    top: 100px;
+    left: 500px;
+}
+.continue{
+    position: absolute;
+    top: 750px;
+    left: 400px;
+    width: 300px;
+    height: 76px;
+    font-size: 26px;
+    text-decoration: none;
+
+}
+
+.inferior{
+    position: absolute;
+    width: 2960px;
+    background-color: #3669c9;
+    height: 235px;
+    top: 1352px;
+}
+
+.inferior .img1 img{
+    position: relative;
+    width: 300px;
+    height: 60px;
+    left: 1200px;
+    top: -90px;
+}
+.inferior .texto2{
+    position: relative;
+    color: white;
+    text-align: center;
+    left: -500px;
+    font-size: 20px;
+    top: 35px;
+    line-height: 200%;
+}
+.inferior .texto3{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    left: 500px;
+    top: -200px;
+    line-height: 200%;
+}
