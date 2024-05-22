@@ -53,7 +53,7 @@ body{
     top: 191px;
     left: 710px;
     width: 1545px;
-    height: 1225px;
+    height: 870px;
     border-radius: 50px;
     background-color: white;
 }
@@ -65,29 +65,14 @@ body{
     top: 42px;
 
 }
-#text1{
+.text1{
     position: relative;
     text-align: center;
-    font-size: 26px;
     top: 100px;
-    left: -40px;
 }
-.contenedor1{
+.text1 img{
     position: relative;
-    top: 100px;
-    left: 397px;
-}
-.contenedor1 input{
-    display: block;
-    height: 63px;
-    width: 792px;
-    margin-bottom: 20px;
-}
-.contenedor1 label{
-    font-size: 21px;
-}
-.contenedor1 .int{
-    height: 55px;
+    left: -50px;
 }
 .robot{
     position: relative;
@@ -96,7 +81,7 @@ body{
 }
 .robot p{
     position: relative;
-    right: -65px;
+    right: -130px;
     font-size: 11px;
 }
 .robot button{
@@ -111,78 +96,68 @@ body{
     left: 120px;
     top: 10px;
 }
-.nuevo h2{
-    text-align: center;
+
+.contenedor1{
     position: relative;
     top: 100px;
-    font-family: Myriad Pro;
-    font-size: 37px;
-    font-weight: 500;
+    left: 370px;
+    border: #707070;
 }
-.nuevo p{
-    font-size: 17px;
+.contenedor1 input{
+    display: block;
+    height: 63px;
+    width: 792px;
+    margin-bottom: 30px;
+}
+.contenedor1 label{
+    font-size: 21px;
     
 }
-.contenedor{
-    display: flex;
-    position: relative;
-}
-.contenedor .rut{
-    position: relative;
-    text-align: center;
-    left: 300px;
-    top: 80px;
-}
-.contenedor .rut img{
-    position: relative;
-    left: -80px;
-    top: 20px;
-    
-}
-.rut h1{
-    font-size: 35px;
-    font-family: Myriad Pro;
-    font-weight: 550;
+.contenedor1 .int{
+    height: 55px;
 }
 
-.contenedor .firma{
+.caja1 a{
+    position: absolute;
+    text-decoration: none;
+    width: 166px;
+    height: 42px;
+    background-color: #3669c9;
+    color: white;
+    text-align: center;
+    left: 260px;
+    border-radius: 40%;
+}
+.text2 h3{
     position: relative;
     text-align: center;
-    left: 400px;
-    top: 120px;
+    top: 100px;
+    font-size: 26px;
 }
-.contenedor .firma img{
+.text2 img{
     position: relative;
-    left: -60px;
+    width: 231px;
+    height: 77px;
+    top: 100px;
+    left: 500px;
 }
-.rut a{
-    text-decoration: none;
+.continue{
     position: absolute;
-    width: 200px;
-    height: 50px;
-    background-color: #3669c9;
-    color: white;
-    left: 1px;
-    font-size: 20px;
-    border-radius: 20px;
-}
-.firma a{
+    top: 750px;
+    left: 400px;
+    width: 300px;
+    height: 76px;
+    font-size: 26px;
     text-decoration: none;
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    background-color: #3669c9;
-    color: white;
-    font-size: 20px;
-    border-radius: 20px;
-    
+
 }
+
 .inferior{
     position: absolute;
     width: 2960px;
     background-color: #3669c9;
     height: 235px;
-    top: 1486px;
+    top: 1100px;
 }
 
 .inferior .img1 img{
