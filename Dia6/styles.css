@@ -158,24 +158,34 @@ body{
 .rut a{
     text-decoration: none;
     position: absolute;
-    width: 200px;
-    height: 50px;
+    width: 80px;
+    height: 10px;
     background-color: #3669c9;
     color: white;
     left: 1px;
     font-size: 20px;
+    padding: 20px 50px;
     border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-left: 135px;
 }
 .firma a{
     text-decoration: none;
     position: absolute;
-    width: 200px;
-    height: 50px;
+    width: 80px;
+    height: 10px;
     background-color: #3669c9;
     color: white;
+    left: 1px;
     font-size: 20px;
+    padding: 20px 50px;
     border-radius: 20px;
-    
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-left: 100px;
 }
 .inferior{
     position: absolute;

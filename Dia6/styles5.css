@@ -87,14 +87,15 @@ body{
 .robot button{
     color: white;
     background-color: #3669c9;
-    border-radius: 20px;
-    border: none;
     font-size: 21px;
     height: 42px;
     width: 165px;
     position: relative;
     left: 120px;
     top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .contenedor1{
