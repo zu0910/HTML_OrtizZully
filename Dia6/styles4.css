@@ -2,6 +2,11 @@
     font-family: Mifuente;
     src: url(fuente/MyriadPro-Light.otf);
 }
+@font-face{
+    font-family: Mifuente2;
+    src: url(fuente/MYRIADPRO-REGULAR.OTF);
+}
+
 #contenedor2{
     height: 1580px;
     background-image: url("img/pexels-clive-kim-4150032@2x.png");
@@ -16,6 +21,7 @@
     position: fixed;
     z-index: 2;
     margin: auto;
+    font-family: Mifuente;
     
 }
 .sub{
@@ -77,6 +83,7 @@
     font-size: 26px;
     top: 100px;
     left: -0px;
+    font-family: Mifuente2;
 }
 #text1 img{
     position: relative;
@@ -116,12 +123,14 @@
     left: 260px;
     border-radius: 40px;
     padding: 20px 50px;
+    font-family: Mifuente1;
 }
 .text2 h3{
     position: relative;
     text-align: center;
     top: 100px;
     font-size: 26px;
+    font-family: Mifuente2;
 }
 .text2 img{
     position: relative;
@@ -164,6 +173,7 @@
     font-size: 20px;
     top: 35px;
     line-height: 200%;
+    font-family: Mifuente1;
 }
 .inferior .texto3{
     position: relative;
@@ -173,4 +183,5 @@
     left: 500px;
     top: -200px;
     line-height: 200%;
+    font-family: Mifuente1;
 }

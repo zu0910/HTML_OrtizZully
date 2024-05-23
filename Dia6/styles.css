@@ -2,6 +2,11 @@
     font-family: Mifuente;
     src: url(fuente/MyriadPro-Light.otf);
 }
+@font-face{
+    font-family: Mifuente2;
+    src: url(fuente/MYRIADPRO-REGULAR.OTF);
+}
+
 #contenedor{
     height: 1580px;
     background-image: url("img/pexels-clive-kim-4150032@2x.png");
@@ -24,6 +29,7 @@
     height: 174px;
     margin: auto;
     display: flex;
+    font-family: "Mifuente2";
 }
 .sub a,img,button{
     margin-left: 150px;
@@ -77,6 +83,7 @@
     font-size: 26px;
     top: 100px;
     left: -40px;
+    font-family: Mifuente2;
 }
 .contenedor1{
     position: relative;
@@ -88,9 +95,11 @@
     height: 63px;
     width: 792px;
     margin-bottom: 20px;
+    font-size: xx-large;
 }
 .contenedor1 label{
     font-size: 21px;
+    font-family: Mifuente;
 }
 .contenedor1 .int{
     height: 55px;
@@ -104,6 +113,7 @@
     position: relative;
     right: -65px;
     font-size: 11px;
+    font-family: Mifuente;
 }
 .robot button{
     color: white;
@@ -121,12 +131,13 @@
     text-align: center;
     position: relative;
     top: 100px;
-    font-family: Myriad Pro;
+    font-family: Mifuente2;
     font-size: 37px;
-    font-weight: 500;
+
 }
 .nuevo p{
     font-size: 17px;
+    font-family: Mifuente;
     
 }
 .contenedor{
@@ -147,8 +158,8 @@
 }
 .rut h1{
     font-size: 35px;
-    font-family: Myriad Pro;
-    font-weight: 550;
+    font-family: Mifuente;
+    
 }
 
 .contenedor .firma{
@@ -156,6 +167,7 @@
     text-align: center;
     left: 400px;
     top: 120px;
+    font-family: Mifuente;
 }
 .contenedor .firma img{
     position: relative;
@@ -192,6 +204,7 @@
     align-items: center;
     display: flex;
     margin-left: 100px;
+    font-family: Mifuente;
 }
 .inferior{
     position: absolute;
@@ -216,6 +229,7 @@
     font-size: 20px;
     top: 35px;
     line-height: 200%;
+    font-family: Mifuente;
 }
 .inferior .texto3{
     position: relative;
@@ -225,4 +239,5 @@
     left: 500px;
     top: -200px;
     line-height: 200%;
+    font-family: Mifuente;
 }
