@@ -7,184 +7,359 @@
     src: url("fuente/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Bd.ttf");
 }
 body{
-    margin: 0 auto;
-    font-family: "Mifuente";
+    width: 100vw;
+    min-height: 100vh; 
     background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .contenedor{
-    margin: 0px auto;
-    width: 100vw;
-    height: 212vw;
-}
-.contenedor2{
-    background-image: url(img/fondo2.png);
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 135vh;
+    position: relative;
     max-width: 1920px;
-    max-height: 56vw;
-    text-align: center;
+    max-height: 4149px;
+    margin: 0 auto;
 }
-.contenedor .superior{
-    display: flex;
-    justify-content: space-between;
-}
-.contenedor .superior .lupita{
-    width: 2vw;
-    height: 2vw;
-    padding-top: 2vw;
-    padding-left: 3vw;
-}
-.contenedor2 .superior a{
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    width: 5vw;
-    font-size: 1vw;
-    height: 1.5vw;
-    border-radius: 20px;
-    margin-top: 2vw;
-    margin-right: 3vw;
-}
-.contenedor2 .mediano .logoPrime{
-    height: 14vw;
-    width: 23vw;
-    margin-top: 7%;   
-}
-.contenedor2 .midiano{
-    color: white;
-    font-size: 1.8vw;
-}
-.contenedor2 .mediano h1,button,p{
-    margin-top: -1%;
-}
-.contenedor2 .mediano p{
-    font-weight: lighter;
-}
-.contenedor2 .mediano button{
-    background-color: white;
-    color: black;
-    border: none;
-    height: 4.5vw;
-    width: 16.5vw;
-    border-radius: 55px;
-    font-size: 1.5vw;
-    margin-top: 0
-}
-.caja1{
-    color: white;
-}
-.caja1 .arriba img{
+
+.fondo2{
+    position: absolute;
+    top: 0;
+    left: 0;
     height: auto;
-    width: 90%;
-    margin-left: 3.5%;
-    margin-bottom: 3%;
+    width: 100%;
+    max-width: 100%;
+    max-width: 100%;
+    opacity: 0.75;
 }
-.caja1 .midiano2 img{
-    width: 90%;
+.logoPrime{ 
+    position: absolute;
+    top: 11.5vw;
+    left: 33vw;
+    max-width: 556px;
+    max-height: 313px;
+    width: 36vw;
     height: auto;
-    margin-left: 3.5%;
 }
-.caja1 .mediano2 h1{
-    color: white;
+.lupita{
+    position: absolute;
+    max-width: 36px;
+    max-height: 36px;
+    top: 2vw;
+    left: 3vw;
+    width: 2.5vw;
+    height: auto;
+    
+}
+.login{
+    position: absolute;
+    max-width: 205px;
+    max-height: 54px;
+    top: 1.563vw;
+    left: 88vw;
+    width: 9vw;
+    height: 3vw;
+}
+.plogin{
+    position: absolute;
+    font-family: Mifuente;
+    font-size: 1.1vw;
+    text-align: left;
+    left: 3vw;
+    color: black;
+    top: -0.4vw;
+    width: 15vw;
+    max-width: 50px;
+    max-height: 50px;
+    opacity: 0.80;
+}
+.text1{
+    position: absolute;
+    font-family: Mifuente2;
+    font-weight: bold;
+    text-align: left;
     font-size: 3vw;
-    margin-top: -35%;
+    color: white;
+    top: 25vw;
+    left: 20vw;
+    width: 74vw;
+    height: auto;
+    max-width: 1151px;
+    max-height: 60px;
+    
+}
+.text2{
+    position: absolute;
+    font-family: Mifuente;
     text-align: center;
+    font-size: 1.56vw;
+    line-height: 1.2;
+    color: white;
+    top: 32vw;
+    left: 17vw;
+    width: 65vw;
+    height: auto;
+    max-width: 1160px;
+    max-height: 102px;
+    
+}
+.rect2{
+   position: absolute;
+   top: 42vw;
+   left: 39vw;
+   width: 20vw;
+   height: 5vw;
+   max-width: 458px;
+   max-height: 104px;
+}
+.textrect{
+    position: absolute;
+    font-family: Mifuente;
+    font-size: 1.9vw;
+    text-align: left;
+    color: black;
+    top: -0.6vw;
+    left: 2vw;
+    width: 17vw;
+    height: 5vw;
+    max-width: 360px;
+    max-height: 40px;
+
+}
+.caja1 {
+    position: absolute;
+    top: 55vw;
+    left: 3vw;
+    width: 94.4vw;
+    height: 30vw;
+    max-width: 1792px;
+    max-height: 567px;
+}
+.caja2 {
+    position: absolute;
+    top: 86vw;
+    left: 3vw;
+    width: 94.4vw;
+    height: 38vw;
+    max-width: 1792px;
+    max-height: 724px;
+}
+.caja3 img{
+    position: relative;
+    bottom: 5560px;
+    left: 67px;
+    width: 1792px;
+    height: 567px;
+}
+.img1{
+    position: absolute;
+    top: 9vw;
+    left: 21.7vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
+    border: 1px solid #707070;
+}
+.img2{
+    position: absolute;
+    top: 9vw;
+    left: 32.3vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
+    border: 1px solid #707070;
+}
+.img3{
+    position: absolute;
+    top: 9vw;
+    left: 43vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
+    border: 1px solid #707070;
+}
+.img4{
+    position: absolute;
+    top: 9vw;
+    left: 53.7vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
+    border: 1px solid #707070;
+}
+.img5{
+    position: absolute;
+    top: 9vw;
+    left: 64.4vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
+    border: 1px solid #707070;
+}
+.text5{
+    font-family: Mifuente2;
+    position: absolute;
+    font-size: 3.1vw;
+    text-align: left;
+    color: white;
+    top: -1vw;
+    left: 3.7vw;
+    width: 90vw;
+    height: 28vw;
+    max-width: 1664px;
+    max-height: 60px;
+}
+.text6{
+    font-family: Mifuente;
+    position: absolute;
+    font-size: 2.6vw;
+    text-align: center;
+    color: white;
+    top: 26vw;
+    left: 8vw;
+    width: 88w;
+    height: 30vw;
+    max-width: 1492px;
+    max-height: 110px;
+}
+.caja3{
+    position: absolute;
+    top: 125vw;
+    left: 3vw;
+    width: 94.4vw;
+    height: 30vw;
+    max-width: 1792px;
+    max-height: 567px;
+    border-radius: 1vw;
+}
+.equis{
+    position: absolute;
+    top: 135vw;
+    left: 45vw;
+    width: 10vw;
+    height: 10vw;
+    max-width: 169px;
+    max-height: 169px;
     z-index: 2;
 }
-.caja1 .mediano2 .imagenes{
-    display: flex;
-    justify-content: center;
-    margin-left: -3%;
-}
-.caja1 .mediano2 .imagenes img{
-    height: auto;
-    width: 9vw;
-    margin: 2px;
-}
-.caja1 .mediano2 p{
-    font-size: 2.5vw;
-    margin-top: 3%;
-    margin-left: 13%;
-}
-.caja1 .caja2 .cajita2{
-    width: 90%;
-    height: auto;
-    margin-top: 3%;
-    margin-left: 3.5%;
-}
-.caja1 .caja2 h1{
-    font-size: 3vw;
-    margin-top: -27%;
-    margin-left: 30%;
-
-}
-.caja1 .caja2 .x img{
-    width: 9vw;
-    margin-left: 45%;
-}
-.caja1 .caja2 .texto p{
-    color: white;
-    text-align: center;
-    font-size: 2.5vw;
-    margin-top: 3%;
-}
-
-.caja3  .texto2 h1{
-    color: white;
-    font-size: 10vw;
-    text-align: center;
-}
-.caja3 .texto2 p{
-   font-size: 2.5vw;
-   margin-top: -4%;
-   z-index: 2;
-   text-align: center;
-}
-
-.imagenes2{
-    margin-left: 33%;
-}
-.caja3 .texto2 .imagenes2 .mac{
-    width: 35vw;
-}
-.caja3 .texto2 .imagenes2 .iphone{
-    width: 15vw;
+.text7{
     position: absolute;
-    margin-left: -15%;
-    margin-top: 10%; 
+    font-family: Mifuente2;
+    font-size: 3.2vw;
+    text-align: left;
+    color: white;
+    top: 1vw;
+    left: 26vw;
+    height: 28vw;
+    width: 90vw;
+    max-width: 800px;
+    max-height: 60px;
 }
-.caja3 .texto2 .imagenes2 .pc{
+.text8{
+    position: absolute;
+    font-family: Mifuente;
+    font-size: 2vw;
+    text-align: center;
+    top: 20vw;
+    left: 15vw;
+    max-width: 1382px;
+    max-height: 88px;
+    color: white;
+}
+.devices{
+    position: absolute;
+    font-family: Mifuente;
+    font-size: 6vw;
+    text-align: center;
+    color: white;
+    top: 152vw;
+    left: 22vw;
+    width: 58vw;
+    height: 15vw;
+    max-width: 1118px;
+    max-height: 125px;
+}
+.devices2{
+    position: absolute;
+    font-family: Mifuente;
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+    top: 166vw;
+    left: 8.5vw;
+    width: 85vw;
+    height: auto;
+    max-width: 1544px;
+    max-height: 99px;
+}
+.mac{
+    position: absolute;
+    top: 176vw;
+    left: 39vw;
     width: 25vw;
+    height: 23vw;
+    max-width: 584px;
+    max-height: 534px;
+}
+.iphone{
     position: absolute;
-    margin-top: 5%;
+    top: 181vw;
+    left: 20vw;
+    width: 12.5vw;
+    height: 10vw;
+    max-width: 256px;
+    max-height: 219px;
+    opacity: 0.90;
 }
-.caja4{
-    display: flex;
-}
-.caja3 .texto2 .powered{
-    margin-left: 10%;
-    margin-top: 15%;
-}
-.caja3 .texto2 .caja4 .powered{
-    width: 7vw;
-    height: 2vw;
+.pc{
     position: absolute;
-    margin-top: 10%;
-    margin-left: 40%;
+    top: 181vw;
+    left: 70vw;
+    width: 12.5vw;
+    height: 10vw;
+    max-width: 271px;
+    max-height: 238px;
 }
-.caja3 .texto2 .caja5 .logo2{
+.flecha1{
     position: absolute;
-    width: 50vw;
-    margin-left: 23%;
-    margin-top: -7%;
-
+    top: 184vw;
+    left: 20vw;
+    width: 2vw;
+    height: 3vw;
+    max-width: 19px;
+    max-height: 27px;
 }
-.caja3 .texto2 .caja6 img{
-    width: 50vw;
+.flecha2{
     position: absolute;
-    height: auto;
-    margin-top: 24%;
-    margin-left: 15%;
+    top: 184vw;
+    left: 82vw;
+    width: 2vw;
+    height: 3vw;
+    max-width: 19px;
+    max-height: 27px;
+    transform: rotate(-179deg);
+}
+.logo1{
+    position: absolute;
+    top: 205vw;
+    left: 45vw;
+    width: 20vw;
+    height: 12vw;
+    max-width: 430px;
+    max-height: 241px;
+    opacity: 0.50;
+}
+.logo2{
+    position: absolute;
+    top: 21.2vw;
+    left: 32vw;
+    width: 40vw;
+    height: 4vw;
+    max-width: 831px;
+    max-height: 25px;
+    opacity: 0.50;
 }
