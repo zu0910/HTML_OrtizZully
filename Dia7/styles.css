@@ -345,7 +345,7 @@ body{
 }
 .logo1{
     position: absolute;
-    top: 205vw;
+    top: 199vw;
     left: 45vw;
     width: 20vw;
     height: 12vw;
@@ -355,11 +355,21 @@ body{
 }
 .logo2{
     position: absolute;
-    top: 21.2vw;
-    left: 32vw;
-    width: 40vw;
-    height: 4vw;
-    max-width: 831px;
-    max-height: 25px;
+    top: 200vw;
+    left: 35vw;
+    width: 25vw;
+    height: 3vw;
+    max-width: 500px;
+    max-height: 13px;
+    opacity: 0.50;
+}
+.final{
+    position: absolute;
+    top: 205vw;
+    left: 35vw;
+    width: 35vw;
+    height: 6vw;
+    max-width: 600px;
+    max-height: 55px;
     opacity: 0.50;
 }
