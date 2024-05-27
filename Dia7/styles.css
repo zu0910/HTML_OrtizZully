@@ -7,8 +7,8 @@
     src: url("fuente/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Bd.ttf");
 }
 body{
-    width: 100vw;
-    min-height: 100vh; 
+    width: 100vw;/*ancho completo de la  pantalla*/
+    min-height: 100vh;
     background-color: black;
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@ body{
 }
 .logoPrime{ 
     position: absolute;
-    top: 11.5vw;
+    top: 11.5vw;/*viewport width*/
     left: 33vw;
     max-width: 556px;
     max-height: 313px;
