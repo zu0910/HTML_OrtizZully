@@ -14,7 +14,7 @@ body{
     
 }
 
-.sol{
+#sol{
     width: 17vw;
     height: 15vw;
     margin-left: 60vw;
@@ -22,15 +22,24 @@ body{
     animation-name: sun;
     animation-duration: 15s;
     animation-iteration-count: infinite;
+    opacity: 0 ;
+    z-index: -1;
+    
 }
 @keyframes sun{
     0% {
-        opacity: 50% }
+        opacity: 0 }
+    50%{
+        opacity: 0;
+    }
     75%{
-        opacity: 75%}
+        opacity: 1}
+    100%{
+        opacity: 1;
+    }
     
 }
-.nube{
+#nube{
     width: 25vw;
     height: 17vw;
     margin-left: 70vw;
@@ -38,39 +47,45 @@ body{
     animation-name: cloud;
     animation-duration: 15s;
     animation-iteration-count: infinite;
+    z-index: 2;
+    
 }
 @keyframes cloud{
     0%{margin-left: 125vw;}
-    50%{margin-left: 25vw;}
-    100%{margin-left: -25vw;}
+    50%{margin-left: 25vw;opacity: 1;}
+    70%{margin-left: -13vw;opacity: 0;}
+    100%{margin-left: 1vw;opacity: 0;}
 }
 .lluvia{
-    animation-name: drop;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
+    margin-top: -23vw;
+    margin-left: 37vw;
+    width: 15vw;
+    height: 20vw;
+    overflow: hidden;
 }
 #gotas{
     width: 15vw;
     height: 20vw;
-    margin-top: 5vw;
-    margin-left: 62vw;
+    animation-name: drop;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
 }
 @keyframes drop{
-    40%{margin-top: -20%;}
-    80%{margin-top: 10%;}
-    100%{margin-top: 10%;}
+    0%{margin-top: -155vw;}
+    25%{margin-top: -155vw;}
+    50%{margin-top: 20vw;}
+    100%{margin-top: 20vw;}
 }
 
 #flor{
-    margin-top: -60vw;
-    margin-left: 60vw;
+    margin-top: -7vw;
+    margin-left: 37vw;
     display: flex;
     justify-content: center;
     width: 12vw;
     height: 10vw;
 }
 #imgflor{
-    margin-top: 8vw;
     width: 0%;
     height: 0%;
     animation-name: flor;
@@ -78,13 +93,13 @@ body{
     animation-iteration-count: infinite;
 }
 @keyframes flor{
-    80%{
+    75%{
         width: 0%;
         height: 0%;
         margin-top: 8vw;
     }
     100%{
-        width: 12vw;
+        width: 8vw;
         height: 10vw;
     }
 }
@@ -92,20 +107,21 @@ body{
     font-size: 2vw;
     width: 15vw;
     height: 7vw;
-    margin-top: 28vw;
-    margin-left: 83vw;
-    
+    margin-top: -7vw;
+    margin-left:59vw;
     overflow: hidden;
 }
 .cont{
-    margin-top: 4vw;
+    
     animation-name: num;
-    animation-duration: 14s;
+    animation-duration: 15s;
+    text-align: center;
     animation-iteration-count: infinite;
+    overflow: hidden;
 }
 @keyframes num{
-    7%{margin-top: 0vw;}
-    41%{margin-top: -17vw;}
-    28%{margin-top: -26vw;}
-    100%{margin-top: -32vw;}
+    0%{margin-top: 0vw;opacity: 1;}
+    20%{margin-top: -17vw;opacity: 1;}
+    20.1%{opacity: 0;}
+    100%{opacity: 0;}
 }
