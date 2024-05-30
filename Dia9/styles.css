@@ -1,46 +1,89 @@
 
-.paisaje{
-    background-image: url(img/fondo_paisaje.jpg);
-    background-size: cover;
-    width: 60vw;
-    height: 40vw;
+#fondo{
     margin: auto;
+    background-image: url(img/paisaje.jpg);
+    background-size: cover;
+    width: 90vw;
+    height: 45vw;
 }
-.sol{
-    width: 9vw;
-    height: 7vw;
-    margin-left: 40vw;
-    margin-top: 3vw;
-    opacity: 50%;
-    animation-name: solesito;
 
-    
-}
-.nube{
-    width: 15vw;
-    height: 5vw;
-    margin-left: 50vw;
-    margin-top: -6vw;          
-    animation-name: nubecita;
+
+.sol{
+    width: 17vw;
+    height: 15vw;
+    margin-left: 60vw;
+    margin-top: 5vw;
+    animation-name: sun;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
-@keyframes nubecita{
-    50%{margin-left: -35vw;}
-    80%{margin-left: -35vw;}
-    100%{margin-left: -100vw;}
-
+@keyframes sun{
+    0% {
+        opacity: 50% }
+    75%{
+        opacity: 75%}
+    100%{
+        opacity: 0;}
+}
+.nube{
+    width: 25vw;
+    height: 17vw;
+    margin-left: 70vw;
+    margin-top: -14vw;
+    animation-name: cloud;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes cloud{
+    35%{margin-left: 23vw;}
+    80%{margin-left: -60vw;}
+    100%{margin-left: -120vw;}
 }
 .lluvia{
-    margin-top: -30vw;
-    margin-left: 37vw;
-    animation-name: gotas;
-    animation-duration: 20s;
+    overflow: hidden;
+    width: 15vw;
+    height: 20vw;
+    margin-left: 25vw;
+    margin-top: -38vw;
+    animation-name: drop;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    
 }
-@keyframes gotas{
-    50%{margin-top: 140%;}
-    80%{margin-top: 140%;}
-    100%{margin-top: 140%;}
+@keyframes drop{
+    40%{margin-top: 50%;}
+    80%{margin-top: 50%;}
+    100%{margin-top: 50%;}
+}
+.florecita{
+    position: absolute;
+    width: 12vw;
+    height: 10vw;
+}
+#flor{
+    display: flex;
+    justify-content: center;
+    margin-left: 25.5vw;
+    margin-top: -8vw;
+    width: 6vw;
+    height: 8vw;
+}
+#imgflor{
+    margin-top: 8vw;
+    width: 0%;
+    height: 0%;
+    animation-name: flor;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+@keyframes flor{
+    80%{
+        width: 0%;
+        height: 0%;
+        margin-top: 8vw;
+    }
+    100%{
+        width: 100%;
+        height: 100%;
+        margin-top: 0vw;
+    }
 }
