@@ -1,12 +1,18 @@
 
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
 #fondo{
     margin: auto;
     background-image: url(img/paisaje.jpg);
     background-size: cover;
     width: 90vw;
-    height: 45vw;
+    height: 40vw;
+    
 }
-
 
 .sol{
     width: 17vw;
@@ -22,8 +28,7 @@
         opacity: 50% }
     75%{
         opacity: 75%}
-    100%{
-        opacity: 0;}
+    
 }
 .nube{
     width: 25vw;
@@ -35,44 +40,41 @@
     animation-iteration-count: infinite;
 }
 @keyframes cloud{
-    35%{margin-left: 23vw;}
-    80%{margin-left: -60vw;}
-    100%{margin-left: -120vw;}
+    0%{margin-left: 125vw;}
+    50%{margin-left: 25vw;}
+    100%{margin-left: -25vw;}
 }
 .lluvia{
-    overflow: hidden;
-    width: 15vw;
-    height: 20vw;
-    margin-left: 25vw;
-    margin-top: -38vw;
     animation-name: drop;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
 }
+#gotas{
+    width: 15vw;
+    height: 20vw;
+    margin-top: 5vw;
+    margin-left: 62vw;
+}
 @keyframes drop{
-    40%{margin-top: 50%;}
-    80%{margin-top: 50%;}
-    100%{margin-top: 50%;}
+    40%{margin-top: -20%;}
+    80%{margin-top: 10%;}
+    100%{margin-top: 10%;}
 }
-.florecita{
-    position: absolute;
-    width: 12vw;
-    height: 10vw;
-}
+
 #flor{
+    margin-top: -60vw;
+    margin-left: 60vw;
     display: flex;
     justify-content: center;
-    margin-left: 25.5vw;
-    margin-top: -8vw;
-    width: 6vw;
-    height: 8vw;
+    width: 12vw;
+    height: 10vw;
 }
 #imgflor{
     margin-top: 8vw;
     width: 0%;
     height: 0%;
     animation-name: flor;
-    animation-duration: 14s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
 }
 @keyframes flor{
@@ -82,8 +84,28 @@
         margin-top: 8vw;
     }
     100%{
-        width: 100%;
-        height: 100%;
-        margin-top: 0vw;
+        width: 12vw;
+        height: 10vw;
     }
+}
+.Conteo{
+    font-size: 2vw;
+    width: 15vw;
+    height: 7vw;
+    margin-top: 28vw;
+    margin-left: 83vw;
+    
+    overflow: hidden;
+}
+.cont{
+    margin-top: 4vw;
+    animation-name: num;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+@keyframes num{
+    7%{margin-top: 0vw;}
+    41%{margin-top: -17vw;}
+    28%{margin-top: -26vw;}
+    100%{margin-top: -32vw;}
 }
