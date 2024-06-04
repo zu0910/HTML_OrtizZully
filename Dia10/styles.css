@@ -12,7 +12,7 @@ body{
   transition: 1s;
 }
 #sup{
-  background-color: aliceblue;
+  background-color: white;
 }
 #lateral{
   background-color: white;
@@ -63,7 +63,7 @@ body{
 }
 .bloque1, .bloque2, .bloque3, .bloque4{
   width: 22vw;
-  height: 17vh;
+  height: 23vh;
   background-color: white;
   margin-right: -1%;
   margin-left: 2vw;
@@ -77,4 +77,111 @@ body{
   margin-top: 1vw;
   margin-left: 2vw;
   border-radius: 8px;
+}
+.barra-contenedor {
+  width: 85%;
+  height: 15px;
+  background-color: #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 1.6vw;
+  margin-top: 2vw;
+}
+
+.barra {
+  height: 100%;
+  background-color: royalblue;
+  border-radius: 10px 0 0 10px;
+}
+.bloque1 h2{
+  margin-left: 2vw;
+  margin-top: -1.5vw;
+}
+.bloque1 p{
+  margin-left: 2vw;
+  margin-top: -1.5vw;
+  font-weight: 500;
+}
+.bloque1 h4{
+  margin-left: 2vw;
+  margin-top: 0.20vw;
+}
+.bloque2 h2{
+  margin-left: 2vw;
+  margin-top: -1.5vw;
+}
+.bloque2 p{
+  margin-left: 2vw;
+  margin-top: -1.5vw;
+  font-weight: 500;
+}
+.bloque2 h4{
+  margin-left: 2vw;
+  margin-top: 0.20vw;
+}
+.bloque3 h2{
+  margin-left: 2vw;
+  margin-top: -1.5vw;
+}
+.bloque3 p{
+  margin-left: 2vw;
+  margin-top: -1.5vw;
+  font-weight: 500;
+}
+.bloque3 h4{
+  margin-left: 2vw;
+  margin-top: 0.20vw;
+}
+.bloque4 h2{
+  margin-left: 2vw;
+  margin-top: -1.5vw;
+}
+.bloque4 p{
+  margin-left: 2vw;
+  margin-top: -1.5vw;
+  font-weight: 500;
+}
+.bloque4 h4{
+  margin-left: 2vw;
+  margin-top: 0.20vw;
+}
+.bloque5 h3{
+  margin-left: 2vw;
+  position: absolute;
+  font-weight: 650;
+  
+}
+.bloque5 h1{
+  position: absolute;
+  margin-left: 2vw;
+  margin-top: 4vw;
+  font-size: x-large;
+}
+.bloque1 img.img1{
+  position: relative;
+  width: 2vw;
+  height: 3vh;
+  margin-left: 18.5vw;
+  margin-top: 1vw;
+}
+.bloque2 img.img2{
+  position: relative;
+  width: 2vw;
+  height: 3vh;
+  margin-left: 18.5vw;
+  margin-top: 1vw;
+}
+.bloque3 img.img3{
+  position: relative;
+  width: 2vw;
+  height: 3vh;
+  margin-left: 18.5vw;
+  margin-top: 1vw;
+}
+.bloque4 img.img4{
+  position: relative;
+  width: 2vw;
+  height: 3vh;
+  margin-left: 18.5vw;
+  margin-top: 1vw;
 }
