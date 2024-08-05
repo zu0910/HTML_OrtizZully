@@ -41,27 +41,11 @@ En todas las carpetas hice uso de dos tecnologías:
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 
-## Estructura de cada repositorio 
+## Instruciones de uso 
 
-Cada repositorio contiene una estructura disferente:
+* Clona este repositorio o descarga los archivos en tu máquina local.
+* Abre el archivo index.html en un navegador web compatible.
 
-1.  *Dia1*:
-   *  `img/` Imagen utulizada en HTML
-   *  `Ejercicio1_OrtizZully.html` Estructura de la pagian
-2. *Dia2*: Realizaciín de estructura en Html y estilos en CSS sonbre mi información personal. 
+## Creditos 
 
-3. *DIA3*:
-
-4. *DIA4*: 
-
-5. *DIA5*: 
-
-6. *DIA6*: 
-
-7. *DIA7*: 
-
-8. *DIA8*: 
-
-9. *DIA9*:  
-
-10. *DIA10*: 
+Este repositorio fue elaborado por Zully Fernanda Ortiz Avendaño Cc. 1092528097 con el fin de ir evidenciando el mejoramiento y proceso de mi rendimiento en CSS y HTML
